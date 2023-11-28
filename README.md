@@ -1,7 +1,7 @@
 ## Assignment-1
 Dexter Wong IT04 
 
-# Table of Contents
+## Table of Contents
 
 - [Your Project's Name](#D-Caké-Website)
 - [Design Process](#design-process)
