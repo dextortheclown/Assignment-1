@@ -5,9 +5,10 @@ Dexter Wong IT04
 
 - [Your Project's Name](#D-Caké-Website)
 - [Design Process](#design-process)
+    - [Target Audience](#target-audience)
+    - [Goals](#goals)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Testing](#testing)
 - [Credits](#credits)
 
 ## D Café Website
@@ -28,9 +29,7 @@ As a user looking for cakes online:
 - I want to find out about the history of the shop
 - I want to be able to navigate through all these with ease
 
-## Features
-
-### Existing Features
+### Features
 - An about page to showcase the history of the cake shop
 - A product page to show the cakes offered by the shop
 - A gallery to show images of all the cakes the shop offers
@@ -38,14 +37,14 @@ As a user looking for cakes online:
 - Review page to showcase reviews of others
 - Checkout button to show items the user has in the cart
 
+## Features left to implement
+- usage of APIs to provide a real way to checkout
+
 ## Technologies Used
 - HTML
 - CSS
 - JS
 - Figma (For wireframing)
-
-## Features left to implement
-- usage of APIs to provide a real way to checkout
 
 ## Credits
  
