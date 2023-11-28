@@ -1,5 +1,5 @@
-# Assignment-1
-# Dexter Wong IT04 
+## Assignment-1
+Dexter Wong IT04 
 
 # Table of Contents
 
