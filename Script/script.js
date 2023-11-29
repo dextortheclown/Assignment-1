@@ -15,3 +15,13 @@ document.querySelector('#cart-btn').onclick = () => {
 document.querySelector('#close-form').onclick = () =>{
     cart.classList.remove('active');
 }
+
+var swiper = new Swiper(".home-slider", {
+    grabCursor:true,
+    loop:true,
+    cnteredSlides:true,
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+});

@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>D Café</title>
+    <title>D Caké</title>
     <link rel="stylesheet" href="CSS/normalise.css">
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
     <!--header-->
     <header class="header">
-        <a href="#home" class="logo"> <i class="fa fa-coffee"></i> D Café </a>
+        <a href="#home" class="logo"> <i class="fa-solid fa-cake-candles"></i> D Caké </a>
 
         <nav class="navbar">
             <a href="#home">Home</a>
@@ -67,6 +69,47 @@
     </div>
     <!-- Shopping Cart End-->
 
+    <!--home-->
+    <section class="home" id="home">
+
+        <div class="swiper home-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide" style="background: url(images/mmcaketable1.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>Caking up the world</h3>
+                        <a href="#" class="btn"> get started </a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background: url(images/mmcaketable2.jpeg) no-repeat;">
+                    <div class="content">
+                        <h3>Caking up the world</h3>
+                        <a href="#" class="btn"> get started </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+        </div>
+
+    </section>
+    <!--home end-->
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
     <script src="Script/script.js"></script>
+
+    <script>
+        lightGallery(document.querySelector('.gallery .gallery-container'));
+    </script>
+
+
 </body>
 </html>
