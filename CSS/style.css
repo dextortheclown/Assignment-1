@@ -24,11 +24,12 @@
 
 html{
     font-size: 62.5%;
-    overflow: hidden;
+    overflow-x: hidden;
     scroll-padding-top: 9rem;
     scroll-behavior: smooth;
 }
 
+/* changes the look of the scroll bar for visual appeal*/
 html::-webkit-scrollbar {
     width: .8rem;
 }
@@ -209,6 +210,48 @@ section{
 
 /* cart end */
 
+/* about */
+
+.about .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.about .row .image{
+    flex: 1 1 40rem;
+}
+
+.about .row .image img{
+    width: 100%;
+    height: 100%;
+}
+
+.about .row .content{
+    flex: 1 1 40rem;
+}
+
+.about .row .content h3{
+    color: var(--black);
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.about .row .content h3 span{
+    color: var(--secondary);
+}
+
+.about .row .content p{
+    font-size: 1.4rem;
+    color: #444;
+    padding: 1rem 0;
+    line-height: 2;
+}
+
+/* about end*/
+
+
 /* home page */
 
 @keyframes fadeIn{
@@ -284,7 +327,66 @@ padding: 0;
     font-size: 1.5rem;
 }
 
+/* banner */
 
+.banner{
+    background: url(../images/banner-bg.jpg);
+    background-size: cover !important;
+    background-position: center !important;
+  }
+  
+  .banner img{
+    margin-top: 3rem;
+    height: 100%;
+    width: 100%;
+  }
+  
+  /* banner end*/
+
+
+
+
+
+/* Back to top button*/
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgba(73, 122, 255, .8);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgb(73, 122, 255);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
 
 
 
@@ -296,8 +398,12 @@ padding: 0;
     .header{
         padding: 2rem;
     }
+    section{
+        padding: 2rem;
+    }
 }
 
+/* media query for mobile*/
 @media (max-width: 768px) {
     #menu-btn{
         display: inline-block;
@@ -325,4 +431,22 @@ padding: 0;
         margin: 2rem;
     }
 
+    .home .slide .content{
+        width: 40rem;
+    }
+    
+    .home .slide .content h3{
+        font-size: 4rem;
+    }
+
+    @media (max-width: 450px){
+
+        html{
+            font-size: 50%;
+        }
+        
+        .home .slide .content h3{
+            font-size: 3rem;
+        }
+    }
 }
