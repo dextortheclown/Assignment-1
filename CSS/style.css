@@ -45,6 +45,22 @@ html::-webkit-scrollbar-thumb {
     border-radius: 5rem;
 }
 
+.btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 1rem 3rem;
+    font-size: 1.7rem;
+    color: var(--white);
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    background: var(--primary-color);
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: var(--secondary);
+}
+
 /* header*/
 .header{
     position:fixed;
@@ -154,9 +170,8 @@ html::-webkit-scrollbar-thumb {
     cursor: pointer;
 }
 
-.cart-items-container .cart-item .fa-times{
+.cart-items-container .cart-item .fa-times:hover{
     color: var(--primary-color);
-
 }
 
 .cart-items-container .cart-item img{
@@ -173,4 +188,37 @@ html::-webkit-scrollbar-thumb {
     font-size: 1.5rem;
     color: var(--primary-color);
     text-align: left;
+}
+
+/*media queries*/
+@media (max-width: 991px){
+    html{
+    font-size: 55%;
+    }
+    .header{
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    #menu-btn{
+        display: inline-block;
+    }
+    
+    .fa-times{
+        transform: rotate(180deg);
+    }
+
+    .header .navbar{
+        position: absolute;
+        top: 99%;
+        left: 0; right: 0;
+        background: var(--white);
+        border-top: .1rem solid var(--secondary);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+    
+    .header .navbar.active{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
 }
