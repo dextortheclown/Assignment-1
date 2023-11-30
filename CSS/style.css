@@ -129,6 +129,10 @@ section {
   display: none;
 }
 
+#cart-btn{
+  display: none;
+}
+
 /*header end*/
 
 /* footer */
