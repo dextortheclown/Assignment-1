@@ -51,4 +51,4 @@ As a user looking for cakes online:
  
 
 **Acknowledgements:**  
-- I received inspiration for this project from [fieldnotes](fieldnotes.com.sg)
+- I received inspiration for this project from [fieldnotes](https://fieldnotes.com.sg/)
