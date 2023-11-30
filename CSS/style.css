@@ -304,6 +304,9 @@ padding: 0;
   /* banner end */
 
 /* about */
+.about{
+    padding-bottom: 10rem;
+}
 
 .about .row{
     display: flex;
@@ -407,6 +410,9 @@ padding: 0;
 /* product end */
 
 /* gallery */
+.gallery{
+    padding-top: 10rem;
+}
 
 .gallery .gallery-container{
     display: grid;
@@ -456,10 +462,15 @@ padding: 0;
 
 /* team */
 
+.team{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
 .team .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap: 2rem;
+    gap: 3rem;
 }
 
 .team .box-container .box{
@@ -470,7 +481,7 @@ padding: 0;
 }
 
 .team .box-container .box .image{
-    height: 35rem;
+    height: 34rem;
     width: 100%;
     padding: 1.1rem;
     overflow: hidden;
@@ -531,6 +542,7 @@ padding: 0;
 /* footer */
 
 .footer{
+    padding-top: 4rem;
     background: var(--bg);
     text-align: center;
 }
