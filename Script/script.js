@@ -6,16 +6,11 @@ menu.onclick = () => {
     navbar.classList.toggle('active');
 }
 
-let cart = document.querySelector('.cart-items-container');
-
-document.querySelector('#cart-btn').onclick = () => {
-    cart.classList.add('active');
-}
-
 document.querySelector('#close-form').onclick = () =>{
     cart.classList.remove('active');
 }
 
+/* home page carousell */
 var swiper = new Swiper(".home-slider", {
     grabCursor:true,
     loop:true,
