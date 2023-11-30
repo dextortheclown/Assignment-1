@@ -26,6 +26,7 @@ var swiper = new Swiper(".home-slider", {
     },
 });
 
+/* enlarges the images in the gallery section and allows user to scroll through */
 lightGallery(document.querySelector('.gallery .gallery-container'));
 
 /*scrolling to top function*/
