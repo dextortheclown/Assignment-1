@@ -45,8 +45,10 @@ As a user looking for cakes online:
 - CSS
 - JS
 - Figma (For wireframing)
+- JQuery
 
 ## Credits
  
 
 **Acknowledgements:**  
+- I received inspiration for this project from [fieldnotes](fieldnotes.com.sg)
