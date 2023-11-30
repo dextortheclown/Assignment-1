@@ -11,14 +11,14 @@ Dexter Wong IT04
 - [Technologies Used](#technologies-used)
 - [Credits](#credits)
 
-## D Café Website
+## D Caké Website
 
 **Overview:**
 This project is a modern and user-friendly website for a local cake shop. This website serves as a way for the shop to provide a virtual storefront for the users to interact and find out more about the shop. The main goal of the website is to attract customers, provide essential information, showcase the cakes, allowing ease of access to the products offered.
 
 ## Design Process
 
-**Target Audience & Goals**  
+**Target Audience & Goals** 
 #### Target Audience
 This website caters to people looking to purchase cakes online and those seeking to find out more about the cake shop.
 
@@ -38,7 +38,7 @@ As a user looking for cakes online:
 - Checkout button to show items the user has in the cart
 
 ## Features left to implement
-- usage of APIs to provide a real way to checkout
+- usage of APIs to provide a real way to checkout such as stripe API
 
 ## Technologies Used
 - HTML
