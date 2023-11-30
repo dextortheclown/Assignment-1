@@ -344,6 +344,115 @@ padding: 0;
 
 /* about end*/
 
+/* product */
+
+.product{
+    background: var(--bg);
+}
+
+.product .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
+    gap: 2rem;
+}
+
+.product .box-container .box{
+    background: var(--white);
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.product .box-container .box .image{
+    height: 35rem;
+    width: 100%;
+    padding: 1.1rem;
+}
+
+.product .box-container .box .image img{
+    height: 100%;
+    width: 100%;
+    border-radius: .5rem;
+    object-fit: cover;
+}
+
+.product .box-container .box .content{
+    padding: 2rem;
+    padding-top: 0;
+}
+
+.product .box-container .box .content h3{
+    color: var(--black);
+    font-size: 2.5rem;
+}
+
+.product .box-container .box .content .stars{
+    padding: 1rem 0;
+}
+
+.product .box-container .box .content .stars i{
+    font-size: 1.7rem;
+    color: var(--secondary);
+}
+
+.product .box-container .box .content .price{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: var(--secondary);
+    margin-right: 1rem;
+}
+  
+/* product end */
+
+/* gallery */
+
+.gallery .gallery-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2rem;
+}
+
+.gallery .gallery-container .box{
+    height: 40rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery .gallery-container .box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.gallery .gallery-container .box:hover img{
+    transform: scale(1.1);
+}
+
+.gallery .gallery-container .box .icons{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0; left: 0;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.gallery .gallery-container .box .icons i{
+    font-size: 6rem;
+    color: var(--white);
+}
+
+.gallery .gallery-container .box:hover .icons{
+    display: flex;
+}
+
+
+/* gallery end*/
 
 
 /* Back to top button*/
