@@ -52,3 +52,5 @@ As a user looking for cakes online:
 
 **Acknowledgements:**  
 - I received inspiration for this project from [fieldnotes](https://fieldnotes.com.sg/)
+- Cart feature taken from [HoanghoDev](https://github.com/HoanghoDev/add_to_cart_v3)
+- Gallery fucntion taken from [lightGallery](https://www.lightgalleryjs.com/)
