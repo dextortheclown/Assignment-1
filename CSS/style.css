@@ -129,7 +129,7 @@ section {
   display: none;
 }
 
-#cart-btn{
+#cart-btn {
   display: none;
 }
 
@@ -592,8 +592,6 @@ section {
 
 /* gallery end*/
 
-
-
 /* ----------- index page end ---------------*/
 
 /* ----------- about page start ---------------*/
@@ -639,82 +637,81 @@ section {
 /* team */
 
 .team {
-    padding-top: 10rem;
-    padding-bottom: 10rem;
-  }
-  
-  .team .box-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap: 3rem;
-  }
-  
-  .team .box-container .box {
-    background: var(--white);
-    border-radius: 0.5rem;
-    box-shadow: var(--box-shadow);
-    text-align: center;
-  }
-  
-  .team .box-container .box .image {
-    height: 34rem;
-    width: 100%;
-    padding: 1.1rem;
-    overflow: hidden;
-    position: relative;
-  }
-  
-  .team .box-container .box .image img {
-    height: 100%;
-    width: 100%;
-    border-radius: 0.5rem;
-    object-fit: cover;
-  }
-  
-  .team .box-container .box:hover .image img {
-    transform: scale(1.1);
-  }
-  
-  .team .box-container .box .content {
-    padding: 2rem;
-    padding-top: 0;
-  }
-  
-  .team .box-container .box .content h3 {
-    color: var(--black);
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-  }
-  
-  .team .box-container .box .content p {
-    color: var(--black);
-    font-size: 1.7rem;
-    margin-bottom: 1rem;
-  }
-  
-  .team .box-container .box .content .share i {
-    height: 4.5rem;
-    width: 4.5rem;
-    line-height: 4.5rem;
-    background: none;
-    border-radius: 0.5rem;
-    font-size: 2rem;
-    color: var(--primary-color);
-    border: 0.1rem solid var(--primary-color);
-    margin: 0.5rem;
-  }
-  
-  .team .box-container .box .content .share i:hover {
-    color: var(--white);
-    border: 0.1rem solid var(--secondary);
-    background: var(--secondary);
-    box-shadow: var(--box-shadow);
-    transition: 0.4s linear;
-    cursor: pointer;
-  }
-  
-  /* team */
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
 
+.team .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 3rem;
+}
+
+.team .box-container .box {
+  background: var(--white);
+  border-radius: 0.5rem;
+  box-shadow: var(--box-shadow);
+  text-align: center;
+}
+
+.team .box-container .box .image {
+  height: 34rem;
+  width: 100%;
+  padding: 1.1rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.team .box-container .box .image img {
+  height: 100%;
+  width: 100%;
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+
+.team .box-container .box:hover .image img {
+  transform: scale(1.1);
+}
+
+.team .box-container .box .content {
+  padding: 2rem;
+  padding-top: 0;
+}
+
+.team .box-container .box .content h3 {
+  color: var(--black);
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.team .box-container .box .content p {
+  color: var(--black);
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+}
+
+.team .box-container .box .content .share i {
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4.5rem;
+  background: none;
+  border-radius: 0.5rem;
+  font-size: 2rem;
+  color: var(--primary-color);
+  border: 0.1rem solid var(--primary-color);
+  margin: 0.5rem;
+}
+
+.team .box-container .box .content .share i:hover {
+  color: var(--white);
+  border: 0.1rem solid var(--secondary);
+  background: var(--secondary);
+  box-shadow: var(--box-shadow);
+  transition: 0.4s linear;
+  cursor: pointer;
+}
+
+/* team */
 
 /*------------ Team Page End --------------*/
 
@@ -722,45 +719,45 @@ section {
 
 /* review */
 
-.review{
+.review {
   margin-top: 9rem;
   margin-bottom: 6rem;
 }
 
-.review .box-container{
+.review .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 1.5rem;
 }
 
-.review .box-container .box{
-  border: .1rem solid rgba(0, 0, 0, 0.2);
-  border-radius: .5rem;
+.review .box-container .box {
+  border: 0.1rem solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
   box-shadow: var(--box-shadow);
   text-align: center;
   padding: 3rem 2rem;
   background: var(--bg);
 }
 
-.review .box-container .box .user{
+.review .box-container .box .user {
   height: 7rem;
   width: 7rem;
   border-radius: 50%;
   object-fit: cover;
 }
 
-.review .box-container .box h3{
+.review .box-container .box h3 {
   padding: 1rem 0;
   font-size: 2rem;
   color: var(--black);
 }
 
-.review .box-container .box .stars i{
+.review .box-container .box .stars i {
   font-size: 1.5rem;
   color: var(--secondary);
 }
 
-.review .box-container .box p{
+.review .box-container .box p {
   font-size: 1.5rem;
   line-height: 1.8;
   color: #444;
@@ -769,51 +766,51 @@ section {
 
 /* customer Review */
 
-.customer .row{
+.customer .row {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
 }
 
-.customer .row .image{
+.customer .row .image {
   flex: 1 1 30rem;
 }
 
-.customer .row .image img{
+.customer .row .image img {
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
 
-.customer .row form{
+.customer .row form {
   flex: 1 1 50rem;
   padding: 5rem;
 }
 
-.customer .row form .inputBox{
+.customer .row form .inputBox {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
 .customer .row form .inputBox input,
-.customer .row form textarea{
+.customer .row form textarea {
   padding: 1rem;
   margin: 1rem 0;
   font-size: 1.7rem;
   color: var(--secondary);
   text-transform: capitalize;
   background: var(--bg);
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   width: 49%;
 }
 
 .customer .row form .inputBox input:focus,
-.customer .row form textarea:focus{
-  border: .1rem solid var(--primary-color);
+.customer .row form textarea:focus {
+  border: 0.1rem solid var(--primary-color);
 }
 
-.customer .row form textarea{
+.customer .row form textarea {
   width: 100%;
   resize: none;
   height: 15rem;
@@ -825,6 +822,150 @@ section {
 
 /*------------ Review Page End --------------*/
 
+/*------------ Product Page End --------------*/
+
+.container {
+  width: 900px;
+  margin: auto;
+  max-width: 90vw;
+  text-align: center;
+  padding-top: 10rem;
+  transition: transform 0.5s;
+}
+svg {
+  width: 30px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.icon-cart {
+  position: relative;
+}
+.icon-cart span {
+  position: absolute;
+  background-color: red;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #fff;
+  top: 50%;
+  right: -20px;
+}
+.title {
+  font-size: xx-large;
+}
+.listProduct .item img {
+  width: 90%;
+  border-radius: 1rem;
+}
+.listProduct {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  
+}
+.listProduct .item {
+  background-color: #eeeee6;
+  padding: 20px;
+  border-radius: 20px;
+}
+.listProduct .item h2 {
+  font-weight: 500;
+  font-size: large;
+}
+.listProduct .item .price {
+  letter-spacing: 7px;
+  font-size: small;
+}
+.listProduct .item button {
+  background-color: #353432;
+  color: #eee;
+  border: none;
+  padding: 5px 10px;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+/* cart */
+.cartTab {
+  width: 400px;
+  background-color: #353432;
+  color: #eee;
+  position: fixed;
+  top: 0;
+  right: -400px;
+  bottom: 0;
+  display: grid;
+  grid-template-rows: 70px 1fr 70px;
+  transition: 0.5s;
+}
+body.showCart .cartTab {
+  right: 0;
+}
+body.showCart .container {
+  transform: translateX(-250px);
+}
+.cartTab h1 {
+  padding: 20px;
+  margin: 0;
+  font-weight: 300;
+}
+.cartTab .cart-btn {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.cartTab button {
+  background-color: var(--bg);
+  border: none;
+  font-family: Poppins;
+  font-weight: 500;
+  cursor: pointer;
+}
+.cartTab .close {
+  background-color: #eee;
+}
+.listCart .item img {
+  width: 100%;
+}
+.listCart .item {
+  display: grid;
+  grid-template-columns: 70px 150px 50px 1fr;
+  gap: 10px;
+  text-align: center;
+  align-items: center;
+}
+.listCart .quantity span {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+  color: #555;
+  cursor: pointer;
+}
+.listCart .quantity span:nth-child(2) {
+  background-color: transparent;
+  color: #eee;
+  cursor: auto;
+}
+.listCart .item:nth-child(even) {
+  background-color: #eee1;
+}
+.listCart {
+  overflow: auto;
+}
+.listCart::-webkit-scrollbar {
+  width: 0;
+}
+
+/*------------ Product Page End --------------*/
+
 /*media queries*/
 @media (max-width: 991px) {
   html {
@@ -835,6 +976,9 @@ section {
   }
   section {
     padding: 2rem;
+  }
+  .listProduct {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
@@ -874,14 +1018,16 @@ section {
   .home .slide .content h3 {
     font-size: 4rem;
   }
+  .listProduct {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
 
-  @media (max-width: 450px) {
-    html {
-      font-size: 50%;
-    }
-
-    .home .slide .content h3 {
-      font-size: 3rem;
-    }
+  .home .slide .content h3 {
+    font-size: 3rem;
   }
 }
