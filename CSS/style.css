@@ -1,6 +1,7 @@
 /* importing fonts*/
 @import url("https://fonts.googleapis.com/css2?family=Vidaloka&display=swap");
 
+/* Global CSS variables */
 :root {
   /* custom properties*/
   --primary-color: #c98d83;
@@ -12,6 +13,7 @@
 }
 
 * {
+  /* Resetting margin, padding, font-family, etc. */
   margin: 0;
   padding: 0;
   font-family: "Vidaloka", sans-serif;
@@ -23,6 +25,7 @@
   transition: 0.2s linear;
 }
 
+/* General Styling for HTML */
 html {
   font-size: 62.5%;
   overflow-x: hidden;
@@ -62,6 +65,7 @@ section {
   text-transform: uppercase;
 }
 
+/* setting the colors for the button classes html*/
 .btn {
   margin-top: 1rem;
   display: inline-block;
